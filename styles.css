@@ -108,17 +108,13 @@ a {
     cursor: pointer;
 }
 
-.goods ul{
-    list-style: none;
-}
-
-.goods li{
-    display: flex;
+.flexcontainer{
+    flex-direction: column;
     align-items: center;
 }
 
 .goods:hover{
-    border: thick double darkolivegreen;
+    outline: thick double darkolivegreen;
 }
 
 .product-name{
